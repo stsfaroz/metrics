@@ -3,8 +3,8 @@
   "base.activity+community",
   "base.repositories",
   "gists",
+  "isocalendar",
   "languages",
   "pagespeed",
-  "isocalendar",
   "screenshot"
 ]
