@@ -4,7 +4,6 @@ FROM node:20-bookworm-slim
 # Copy repository
 COPY . /metrics
 WORKDIR /metrics
-
 # Setup
 RUN chmod +x /metrics/source/app/action/index.mjs \
   # Install latest chrome dev package, fonts to support major charsets and skip chromium download on puppeteer install
